@@ -1,0 +1,9 @@
+.modal-wrapper {
+    max-width: 400px;
+}
+
+@media (max-width: 415px) {
+    .modal-wrapper {
+        max-width: 300px;
+    }
+}

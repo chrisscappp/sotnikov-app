@@ -1,0 +1,19 @@
+.filtered-empty__text {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.field__filter__value-container {
+    display: flex; 
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.footer__pagination {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 100px;
+}

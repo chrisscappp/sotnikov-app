@@ -1,0 +1,64 @@
+.empty-error {
+    color: red;
+    font-size: 14px;
+}
+
+.post__title-input {
+    max-width: 570px;
+}
+
+.post__username-input {
+    max-width: 570px;
+}
+
+.post__body-input {
+    max-width: 570px;
+}
+
+.update__post__modal-button__container {
+    width: 320px;
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 25px;
+}
+
+.update__post__modal-button__container__back-button {
+    margin-top: 0px;
+}
+
+@media (max-width: 700px) {
+    .post__title-input {
+        max-width: 330px;
+    }
+    .post__username-input {
+        max-width: 330px;
+    }
+    .post__body-input {
+        max-width: 330px;
+    }
+    .update__post__modal-button__container {
+        width: 330px;
+    }
+    .update__post__modal-button__container__back-button {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 415px) {
+    .post__title-input {
+        max-width: 230px;
+    }
+    .post__username-input {
+        max-width: 230px;
+    }
+    .post__body-input {
+        max-width: 230px;
+    }
+    .update__post__modal-button__container {
+        width: 230px;
+        display: block;
+    }
+    .update__post__modal-button__container__back-button {
+        margin-top: 10px;
+    }
+}
